@@ -1,3 +1,17 @@
+.nav-med {
+  background-color: rgba(255, 255, 255, 0.392);
+  margin: 50px;
+  padding: 20px;
+  border-radius: 50px;
+  border: solid 1px black;
+  position: fixed;
+  width: 90%;
+}
+
+.container {
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +22,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.navbar-brand {
-  font-weight: bold;
-}
-
 .hero {
   background: url("../img/hero-img.jpg");
-  padding: 200px 20px;
+  padding: 250px 0px;
   color: #fff;
   background-size: cover;
   background-position: center;
@@ -63,17 +73,6 @@ body {
 .blockchain {
   background-color: #f4f4f4;
   padding: 50px 20px;
-}
-
-footer {
-  background-color: #3498db;
-}
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
