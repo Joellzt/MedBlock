@@ -14,7 +14,7 @@
     <nav class="nav-med navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/LogoMedblock.svg" width="150px" alt="">
+                <img src="./assets/img/LogoMedblock.svg" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,13 +56,15 @@
         <section class="beneficios py-5">
             <div class="container text-center">
                 <h2 class="mb-5">Beneficios de Medblock</h2>
-                <div class="row g-3">
-                    <div class="col-md-4"><div class="benefit-card p-3">Amplia red de hospitales y clínicas, de la más alta complejidad.</div></div>
-                    <div class="col-md-4"><div class="benefit-card p-3">Seguridad y privacidad de tu información médica.</div></div>
-                    <div class="col-md-4"><div class="benefit-card p-3">Cobertura internacional.</div></div>
-                    <div class="col-md-4"><div class="benefit-card p-3">Aplicación Mobile</div></div>
-                    <div class="col-md-4"><div class="benefit-card p-3">Consultas online, con profesionales</div></div>
-                    <div class="col-md-4"><div class="benefit-card p-3">Nuevo! Club de beneficios</div></div>
+                <div class="row gx-3">
+                    <div class="col-md-2"><div class="benefit-card p-3">Amplia red de hospitales y clínicas, de la más alta complejidad.</div></div>
+                    <div class="col-md-2"><div class="benefit-card p-3">Seguridad y privacidad de tu información médica.</div></div>
+                    <div class="col-md-6 row">
+                        <div class="col-md-6"><div class="benefit-card p-3">Cobertura internacional.</div></div>
+                        <div class="col-md-6"><div class="benefit-card p-3">Aplicación Mobile</div></div>
+                        <div class="col-md-12"><div class="benefit-card p-3">Nuevo! Club de beneficios</div></div>
+                    </div>
+                    <div class="col-md-2"><div class="benefit-card p-3">Consultas online, con profesionales</div></div>
                 </div>
             </div>
         </section>
@@ -82,9 +84,28 @@
         <!-- Blockchain Section -->
         <section class="blockchain py-5 bg-light">
             <div class="container">
-                <h2>Blockchain</h2>
-                <p>¿Qué es Blockchain?</p>
-                <p>Blockchain es una tecnología de almacenamiento de datos en bloques...</p>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            ¿Qué es Blockchain?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Blockchain es una tecnología de almacenamiento de datos en bloques que se vinculan de forma segura y descentralizada. Cada bloque contiene información única y una vez que se registra, es inmutable. Esto significa que todos los datos están protegidos contra modificaciones no autorizadas, ofreciendo un nivel de seguridad y transparencia sin precedentes.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">  
+                        ¿Cómo Funciona en MedBlock?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">En MedBlock, usamos blockchain para garantizar que tu información médica esté protegida y bajo tu control. Solo tú y las personas autorizadas pueden acceder a tus datos, y cada acción en tu perfil se registra de manera inalterable en la cadena de bloques. Esto te permite compartir tus estudios y registros médicos con profesionales de salud de manera segura, asegurándote de que cada acceso y cambio queda registrado para brindarte una atención confiable y completamente privada.</div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </section>
     </main>

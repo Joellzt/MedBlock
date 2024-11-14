@@ -1,11 +1,17 @@
+@import url();
 .nav-med {
   background-color: rgba(255, 255, 255, 0.392);
-  margin: 50px;
-  padding: 20px;
-  border-radius: 50px;
-  border: solid 1px black;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 1px rgba(0, 0, 0, 0.24);
   position: fixed;
-  width: 90%;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 93%;
+}
+.nav-med img {
+  width: 150px;
 }
 
 .container {
@@ -36,6 +42,10 @@ body {
 }
 .hero h1 {
   font-size: 2.5rem;
+  display: flex;
+  justify-content: start;
+  max-width: 300px;
+  text-align: left;
 }
 .hero .btn-primary {
   background-color: #1abc9c;
